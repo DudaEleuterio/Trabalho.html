@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Maria Eduarda Eleutério Rocha</h1>
+    <br>
+    <h3>Breve autobiografia</h3>
+    <p> Meu nome é Maria Eduarda, Tenho 24 anos<br>
+        Moro em Ribeirão Preto,SP.<br>
+        Gosto muito de tecnologia, futebol e assistir séries, ou filmes.<br>
+         <br>
+         
+         <h2>Meus hobbies</h2>
+         <ul>
+            <li>Assistir séries, ou filmes</li>
+            <li>Jogar</li>
+            <li>Estudar</li>
+         </ul>
+         
+         <h2>Imagem de um dos meus hobbies mencionados</h2>
+         <img src="img/séries.jpg" alt="Imagens das séries que estou assistindo.">
+         <br>
+         <h2>Países que gostaria de visitar!</h2>
+         <table border="1">
+            <tr>
+                <td>Portugal</td>
+                <td><img src="img/portugal.jpg" alt="Portugal" width="150"></td>
+            </tr>
+            <br>
+            <tr>
+                <td>Espanha</td>
+                <td><img src="img/espanha.jpg" alt="Espanha" width="150"></td>
+            </tr>
+            <br>
+            <tr>
+                <td>Roma</td>
+                <td><img src="img/roma.webp" alt="Roma" width="150"></td>
+            </tr>
+            <br>
+         </table>
+         <br>
+         <br>
+         <p>
+            <br> <a href="https://br.shein.com" target="_blank">Link Shein(loja)</a>
+         </p>
+
+       <!-- Botão para mensagem -->
+    <button onclick="mostrarMensagem()">Clique para ver uma mensagem!</button>
+
+    <!-- Aqui a mensagem vai aparecer -->
+    <div id="mensagem" style="margin-top: 15px; font-weight: bold; font-size: 18px; text-align: center;"></div>
+
+    <script>
+        function mostrarMensagem() {
+            document.getElementById('mensagem').innerText = "Nunca desista dos seus sonhos! 🚀";
+        }
+    </script>
+
+</body>
+</html>

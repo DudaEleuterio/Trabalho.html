@@ -1,0 +1,124 @@
+/* Cor de fundo suave */
+body {
+    background-color: #f3e3fa;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* Título centralizado e com cor diferente */
+h1 {
+    color: purple;
+    text-align: center;
+}
+
+/* Parágrafo com fonte maior e texto justificado */
+p {
+
+    font-size: 22px;          /* Tamanho da fonte */
+    text-align: justify;      /* Texto justificado */
+    max-width: 400px;         /* Largura máxima do parágrafo */
+    margin: 0 auto;           /* Centraliza o bloco na página */
+    line-height: 1.2;         /* Espaçamento entre linhas */
+}
+
+
+h2, h3{
+    text-align: center;
+}
+
+
+
+/* Lista com espaçamento maior entre os itens */
+/* Estilo para a lista */
+ul {
+    list-style-type: disc;  /* Mantém as bolinhas padrão */
+    padding-left: 40px;     /* Espaçamento da margem esquerda */
+    line-height: 2;         /* Espaçamento entre os itens */
+    max-width: 400px;           /* Largura máxima */
+    margin: 20px auto;          /* Centraliza a lista */
+    padding: 20px;              /* Espaçamento interno */
+}
+
+/* Estilo para os itens da lista */
+ul li {
+    color: #333333;          /* Cor do texto */
+    font-size: 18px;         /* Tamanho da fonte */
+    font-weight: bold;       /* Deixa o texto em negrito */
+    margin-bottom: 8px;    /* Espaçamento extra abaixo de cada item */
+}
+
+
+
+/* Tabela com pequeno espaçamento interno */
+/* Tabela */
+table {
+    margin-top: 15px;
+    border-collapse: collapse;
+    text-align: center;
+    border-radius: 10px;
+    display: block;         
+    margin-left: auto;      
+    margin-right: auto;     
+    max-width: 300px;
+    width: 100%;
+    height: auto;  
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+img {
+    border-radius: 10px;
+    display: block;          /* Faz a imagem se comportar como um bloco */
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;        /* Define uma largura máxima */
+    width: 50%;             /* Faz a imagem ser responsiva até o limite de 300px */
+    height: auto;            /* Mantém a proporção da imagem */
+}
+
+/* Estilo padrão do link */
+a {
+    color:  purple;            /* Cor inicial (azul) */
+    text-decoration: none;     /* Remove o sublinhado */
+    padding-left: 130px;     /* Espaçamento da margem esquerda */
+    
+}
+
+/* Estilo quando passa o mouse */
+a:hover {
+    color: red;            /* Cor ao passar o mouse (laranja) */
+    text-decoration: underline; /* (opcional) Adiciona sublinhado */
+}
+
+/* --- NOVO: Estilo para o botão --- */
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 12px 25px;
+    font-size: 18px;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+}
+
+button:hover {
+    background-color: #800080cc; /* Roxo um pouco mais transparente */
+}
+
+/* --- NOVO: Estilo para a mensagem que aparece --- */
+#mensagem {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: #4b0082; /* tom roxo escuro */
+    
+}
+
